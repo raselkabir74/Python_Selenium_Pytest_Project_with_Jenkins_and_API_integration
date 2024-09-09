@@ -1,0 +1,20 @@
+{
+  "io_main_information": {
+    "io_title": "automation_ui_testing_"
+  },
+  "client_profile": {
+    "client": "AutomationAdminUser"
+  },
+  "io_object": {
+    "campaign": "SeleniumAutomationBannerCampaign (110264)",
+    "media_budget": "100, 10000, 300",
+    "channel_service": "Test Channel",
+    "country": "Bangladesh"
+  },
+  "billing_information": {
+    "currency": "Bangladesh Taka (BDT), Nigeria Naira (NGN), United States Dollar (USD)",
+    "currency_ids": "13, 102, 147",
+    "vat": "5.00",
+    "discount": "2.00"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "info": {
+    "private_deal": "Anzu - ALWAYS ON - EMEA Tier 2 - Display Mobile",
+    "deal_margin": "46"
+  },
+  "main_settings": {
+    "io": "Test Automation IO Please Ignore #15795",
+    "advertiser_name": "Eskimi",
+    "advertisement_category": "IAB19 Technology & Computing"
+  },
+  "reporting_and_budget": {
+    "bid": "1.00",
+    "daily_budget": "10.00",
+    "total_budget": 60.0,
+    "tech_fee": "8.00"
+  },
+  "optimization_and_tracking": {
+    "goals": {
+      "type": "Type: Other",
+      "pre_optimisation": "Pre-optimise historical placement: Exclude only bad"
+    },
+    "multiple_bids_per_second": "True"
+  },
+  "ad_exchange": {
+    "margin_type_value": "0",
+    "eskimi_margin": "True",
+    "eskimi_margin_value": "95"
+  }
+}

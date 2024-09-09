@@ -1,0 +1,81 @@
+{
+  "name_and_type": {
+    "platform_type": "Eskimi",
+    "creative_type": "Banner",
+    "campaign_type": "Display Ads",
+    "campaign_name": "automation_ui_testing_"
+  },
+  "campaign_goal_info": {
+    "campaign_goal": "2",
+    "primary_objective": "cpm_currency:2",
+    "pre_optimisation": "true",
+    "secondary_objectives": "ctr:2,sr:3",
+    "auto_opt_checkbox": [
+      "CTR (click-through rate)",
+      "SR (session rate)"
+    ],
+    "minimum_ctr": "2",
+    "minimum_imp_per_placement_to_learn_ctr": "150",
+    "minimum_sr": "3",
+    "minimum_imp_per_placement_to_learn_sr": "10000",
+    "impression_amount": "10",
+    "impression_click": "2",
+    "impression_time": "1"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "1.00",
+    "daily_budget": "9.09",
+    "total_budget": "54.54",
+    "daily_budget_selected": "",
+    "daily_budget_pacing": "True"
+  },
+  "location_and_audiences": {
+    "country_name": "Bangladesh",
+    "city_name": "Dhaka - Bangladesh",
+    "state_name": "Dhaka division - Bangladesh",
+    "audience_include": "Behavioral (user interests) - Automation Audience Behavioral Two (0 users)",
+    "audience_exclude": "Behavioral (user interests) - Automation Audience Behavioral Three (0 users)",
+    "age": "25 - 29",
+    "gender": "Female",
+    "language": "Hebrew",
+    "sec": "A1"
+  },
+  "brand_safety": {
+    "brand_safety_keywords": "automation_brand_safety (17 keywords)",
+    "contextual_keywords" : "automation_brand_safety (17 keywords)"
+  },
+  "campaign_purpose": {
+    "campaign_purpose": "New customer acquisition",
+    "primary_operator": "Banglalink - Bangladesh"
+  },
+  "platforms_telco_and_devices": {
+    "ad_placement_type": "Site",
+    "mobile_operator": "Robi - Bangladesh",
+    "ip_address/ranges": "12.1.5.7",
+    "device_type": "Smartphone",
+    "device_os": "Android",
+    "device_brand": "Acer",
+    "device_model": "Acer Chromebook R11",
+    "browser": "Chrome",
+    "device_cost_range": "$50-100",
+    "sim_amount": "1 SIM",
+    "device_connection": "2G supporting devices",
+    "network_connection": "2G network connection",
+    "multiple_operation_sim_card": "Robi - Bangladesh",
+    "mobile_data_consumption": "High",
+    "operator_churn": "Robi - Bangladesh"
+  },
+  "deals_and_packages": {
+    "ad_exchange_checkbox": "_Test QA",
+    "ad_placement_position_checkbox": "Below the Fold",
+    "private_marketplace": "Private auction - Anzu - ALWAYS ON - EMEA Tier 2 - Display Mobile ($3.98)",
+    "packages": ["Kids and Family-Oriented Games (Open Auction and PMP)", "Include only"],
+    "package_include": "Include only"
+  },
+  "landing_and_creatives": {
+    "click_url": "https://business.eskimi.com",
+    "ad_domain": "business.eskimi.com",
+    "creative": "CampaignCreationSelenium",
+    "impression_tracking_pixel": "https://tracking.example.com/pixel.gif?timestamp={CACHEBUSTER}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "BillingEntities_",
+  "company_name": "Test Billing Entities",
+  "address": "Test Address",
+  "postcode": "123456",
+  "country": "Bangladesh",
+  "phone_number": "9898989898",
+  "registration_number": "123456789",
+  "vat_code": "7676",
+  "bank_number": "87876543"
+}

@@ -1,0 +1,12 @@
+{
+  "payment_information": {
+    "amount_paid": "100.00",
+    "vat": "10.00",
+    "bank_charges": "10.00",
+    "taxes": "10.00",
+    "rebate": "10.00",
+    "total": "140.00",
+    "balance": "-139.01",
+    "status": "Paid"
+  }
+}

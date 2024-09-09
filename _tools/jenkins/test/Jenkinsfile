@@ -1,0 +1,331 @@
+#!groovy
+
+pipeline {
+    agent {
+        label 'dsp-dashboard-selenium' + (params.DASHBOARD_STAGE == '-qa-testing' ? '-qa' : '')
+    }
+    parameters {
+        choice(name: 'DASHBOARD_STAGE', choices: [
+            '-stage',
+            '-qa-testing',
+            'uat',
+            'aam',
+            'anv',
+            'ap',
+            'ar',
+            'av',
+            'awc',
+            'di',
+            'ds',
+            'ek',
+            'ep',
+            'gb',
+            'hv',
+            'jv',
+            'kc',
+            'mg',
+            'nj',
+            'no',
+            'pe',
+            'rk',
+            'sh',
+            'shr',
+            'tp',
+            'ub'
+        ], description: 'Private staging area (subdomain suffix) to run tests on. Defaults to -stage, which is https://dsp-stage.eskimi.com/')
+        booleanParam(
+            name: 'RUN_UI_TESTS',
+            defaultValue: false,
+            description: 'Run Selenium UI tests'
+        )
+        booleanParam(
+            name: 'REPORT_TO_DASHBOARD_TEAM',
+            defaultValue: false,
+            description: 'Send a duplicate notification to dashboard build channel'
+        )
+        string(
+            name: 'BRANCH_NAME',
+            defaultValue: 'master',
+            description: 'Show the branch name on the Slack channel'
+        )
+        activeChoice(
+            name: 'DASHBOARD_MODULES_TO_TEST',
+            description: 'Dashboard module/page names to run in UI test automation. Defaults to ALL_MODULES',
+            filterable: false,
+            choiceType: 'PT_CHECKBOX',
+            script: [
+                $class: 'GroovyScript',
+                script: [
+                    script: '''
+                        return [
+                            'ALL_MODULES',
+                            'REGRESSION',
+                            'API',
+                            'AUDIENCE',
+                            'BACKEND_CRON_JOBS',
+                            'CAMPAIGN',
+                            'COUNTRY_SETTINGS',
+                            'CREATIVE',
+                            'CURRENCIES',
+                            'ESKIMI_BILLING_ENTITIES',
+                            'GLOBAL_PACKAGE',
+                            'INVOICE',
+                            'IO',
+                            'OPTIMISATION',
+                            'PACKAGES',
+                            'SOA_REPORT',
+                            'USERS'
+                        ]
+                    ''',
+                    fallbackScript: '''
+                        return ['Error fetching choices']
+                    '''
+                ]
+            ]
+        )
+    }
+    options {
+        timestamps()
+        ansiColor('xterm')
+        timeout(time: 180, unit: 'MINUTES')   // timeout on whole job
+        buildDiscarder(logRotator(numToKeepStr: '100'))
+        // disableConcurrentBuilds()
+    }
+    environment {
+        SLACK_CHANNEL = "_jenkins-builds_qa"
+        SLACK_CHANNEL_OPTIONAL = "_jenkins-builds_dashboard"
+        SLACK_TEAM_DOMAIN = "eskimi"
+        SLACK_TOKEN = credentials("ba2e7e7b-35ab-4d63-906c-e3ba8426f975")
+    }
+    stages {
+        stage('Build') {
+            steps {
+                script {
+                    bitbucketStatusNotify(
+                        buildState: 'INPROGRESS',
+                        buildKey: 'build',
+                        buildName: 'Build',
+                        buildDescription: 'Build stage is running.'
+                    )
+
+                    try {
+                        sh '_tools/jenkins/test/build.sh'
+
+                        bitbucketStatusNotify(
+                            buildState: 'SUCCESSFUL',
+                            buildKey: 'build',
+                            buildName: 'Build',
+                            buildDescription: 'Build stage successful.'
+                        )
+                    } catch(Exception e) {
+                        bitbucketStatusNotify(
+                            buildState: 'FAILED',
+                            buildKey: 'build',
+                            buildName: 'Build',
+                            buildDescription: 'Build stage failed.'
+                        )
+
+                        throw(e)
+                    }
+                }
+            }
+        }
+        stage('UI Tests') {
+            steps {
+                script {
+                    bitbucketStatusNotify(
+                        buildState: 'INPROGRESS',
+                        buildKey: 'ui_tests',
+                        buildName: 'UI tests',
+                        buildDescription: 'UI tests stage is running.'
+                    )
+
+                    try {
+                        withCredentials([usernamePassword(credentialsId: 'dsp-dashboard-ui-test', usernameVariable: 'APPROLE_ROLE_ID', passwordVariable: 'APPROLE_SECRET_ID')]) {
+                            sh "_tools/jenkins/test/run.sh ${params.DASHBOARD_STAGE} ${params.RUN_UI_TESTS} ${params.DASHBOARD_MODULES_TO_TEST}"
+                        }
+
+                        bitbucketStatusNotify(
+                            buildState: 'SUCCESSFUL',
+                            buildKey: 'ui_tests',
+                            buildName: 'UI tests',
+                            buildDescription: 'UI tests stage successful.'
+                        )
+                    } catch(Exception e) {
+                        bitbucketStatusNotify(
+                            buildState: 'FAILED',
+                            buildKey: 'ui_tests',
+                            buildName: 'UI tests',
+                            buildDescription: 'UI tests stage failed.'
+                        )
+
+                        catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                            throw(e)
+                        }
+                    }
+                }
+            }
+        }
+        stage('SonarQube Analysis'){
+            when {
+                allOf {
+                    not {
+                        branch 'master'
+                    }
+                    expression {
+                        return env.CHANGE_ID != null
+                    }
+                }
+            }
+            tools {
+                jdk "jdk11"
+            }
+            environment {
+                SONAR_SCANNER_HOME = tool('SonarQube scanner')
+            }
+            steps {
+                script {
+                    bitbucketStatusNotify(
+                        buildState: 'INPROGRESS',
+                        buildKey: 'sonarqube_analysis',
+                        buildName: 'SonarQube analysis',
+                        buildDescription: 'SonarQube analysis stage is running.'
+                    )
+
+                    try {
+                        withSonarQubeEnv('SonarQube') {
+                            sh '_tools/jenkins/test/pylint.sh'
+                            sh '_tools/jenkins/test/sonarqube.sh'
+                        }
+
+                        bitbucketStatusNotify(
+                            buildState: 'SUCCESSFUL',
+                            buildKey: 'sonarqube_analysis',
+                            buildName: 'SonarQube analysis',
+                            buildDescription: 'SonarQube analysis stage successful.'
+                        )
+                    } catch(Exception e) {
+                        bitbucketStatusNotify(
+                            buildState: 'FAILED',
+                            buildKey: 'sonarqube_analysis',
+                            buildName: 'SonarQube analysis',
+                            buildDescription: 'SonarQube analysis stage failed.'
+                        )
+
+                        throw(e)
+                    }
+                }
+            }
+        }
+    }
+    post {
+        cleanup {
+            wrap([$class: 'BuildUser']) {
+                sendNotifications(currentBuild.currentResult)
+            }
+        }
+    }
+}
+
+def sendNotifications(String buildResult) {
+    if (buildResult != 'ABORTED'){
+        def status = ""
+        def color = ""
+        def buildBy = getBuildBy()
+        def emoji = ""
+        def summary = junit testResults: 'test_results.xml'
+        def driveLink = sh(script: 'python3 _tools/jenkins/test/getUploadedFileLink.py', returnStdout: true).trim()
+
+        if (summary.failCount == 0) {
+            status = "Successful"
+            color = "good"
+            emoji = "qc_passed"
+        } else if (buildResult == 'ABORTED') {
+            status = "Aborted"
+            color = "#808080"
+            emoji = "heavy_minus_sign"
+        } else if (summary.failCount != 0) {
+            color = "danger"
+            status = "Failed"
+            emoji = "qc_failed"
+        } else {
+            color = "warning"
+            status = "Unstable"
+            emoji = "warning"
+        }
+        def subject = "${env.JOB_NAME} - #${env.BUILD_NUMBER}"
+        def changeString = getChangeString()
+        def changes = "Changes:\n" + changeString
+        def dashboardStage = "\n *Environment:* ${params.DASHBOARD_STAGE}"
+        def branchName = "\n *Branch Name:* ${params.BRANCH_NAME}"
+        def modulesNames = "\n *Modules:* ${params.DASHBOARD_MODULES_TO_TEST}"
+        def testStatus = "\n *Test Summary* - ${summary.totalCount}, Failures: ${summary.failCount}, Skipped: ${summary.skipCount}, Passed: ${summary.passCount}"
+        def driveLinkMessage = "\n ${driveLink}"
+
+        def message = "$subject $status after ${currentBuild.durationString.replace(" and counting", "")} (<${env.BUILD_URL}display/redirect?page=tests|Open>)\n" +
+            "$changes$testStatus$buildBy$dashboardStage${params.RUN_UI_TESTS ? branchName + modulesNames : ''}$driveLinkMessage"
+
+        def slackResponse = slackSend(
+            teamDomain: env.SLACK_TEAM_DOMAIN,
+            channel: env.SLACK_CHANNEL,
+            token: env.SLACK_TOKEN,
+            botUser: true,
+            iconEmoji: ":jenkins_fire:",
+            notifyCommitters: false,
+            color: color,
+            message: message
+        )
+        slackResponse.addReaction(emoji)
+
+        if (params.REPORT_TO_DASHBOARD_TEAM) {
+            def slackResponse2 = slackSend(
+                teamDomain: env.SLACK_TEAM_DOMAIN,
+                channel: env.SLACK_CHANNEL_OPTIONAL,
+                token: env.SLACK_TOKEN,
+                botUser: true,
+                iconEmoji: ":jenkins_fire:",
+                notifyCommitters: false,
+                color: color,
+                message: message
+            )
+            slackResponse2.addReaction(emoji)
+        }
+    }
+}
+
+def getBuildBy() {
+    def buildUserId = slackUserIdFromEmail(env.BUILD_USER_EMAIL)
+    if (buildUserId == null){
+        def commitUserIds = slackUserIdsFromCommitters(botUser: true)
+        def commitUser = commitUserIds.collect { "<@$it>" }.join(' ')
+        if (commitUserIds == []) {
+            return (String)"\nBuild by: Timer/PR"
+        } else{
+            return (String)"\nCommit by: $commitUser"
+        }
+    } else {
+        return (String)"\nBuild by: <@$buildUserId>"
+    }
+}
+
+// Retrieve changelog for notifications adapted from https://support.cloudbees.com/hc/en-us/articles/217630098-How-to-access-Changelogs-in-a-Pipeline-Job-
+def getChangeString() {
+    MAX_MSG_LEN = 100
+    def changeString = ""
+
+    echo "Gathering SCM changes"
+    def changeLogSets = currentBuild.changeSets
+    for (int i = 0; i < changeLogSets.size(); i++) {
+        def entries = changeLogSets[i].items
+        for (int j = 0; j < entries.length; j++) {
+            def entry = entries[j]
+            truncated_msg = entry.msg.take(MAX_MSG_LEN)
+            changeString += " - ${truncated_msg} [${entry.author}]\n"
+        }
+    }
+
+    if (!changeString) {
+        changeString = " - No new changes"
+    }
+    return changeString
+}

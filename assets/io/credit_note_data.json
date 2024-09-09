@@ -1,0 +1,10 @@
+{
+  "credit_note_information": {
+    "credit_type": "Human mistake",
+    "client_company": "Test Automation Company",
+    "company_profile": "Eskimi LT-SEB",
+    "credit_amount": "10",
+    "payment_note": "Test Payment Note",
+    "credit_note": "Test Credit Note"
+  }
+}

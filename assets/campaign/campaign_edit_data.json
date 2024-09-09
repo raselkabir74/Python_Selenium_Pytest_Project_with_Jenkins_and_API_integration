@@ -1,0 +1,81 @@
+{
+  "name_and_type": {
+    "platform_type": "Eskimi",
+    "creative_type": "Banner",
+    "campaign_type": "Display Ads",
+    "campaign_name": "automation_ui_testing_"
+  },
+  "campaign_goal_info": {
+    "campaign_goal": "1",
+    "primary_objective": "cpm_currency:3",
+    "pre_optimisation": "true",
+    "secondary_objectives": "ctr:4,sr:5",
+    "auto_opt_checkbox": [
+      "CTR (click-through rate)",
+      "SR (session rate)"
+    ],
+    "minimum_ctr": "5",
+    "minimum_imp_per_placement_to_learn_ctr": "50",
+    "minimum_sr": "5",
+    "minimum_imp_per_placement_to_learn_sr": "10000",
+    "impression_amount": "30",
+    "impression_click": "3",
+    "impression_time": "3"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "7.00",
+    "daily_budget": "8.00",
+    "total_budget": "40.00",
+    "daily_budget_selected": "",
+    "daily_budget_pacing": "True"
+  },
+  "location_and_audiences": {
+    "country_name": "Albania",
+    "city_name": "Kashar - Albania",
+    "state_name": "Durres - Albania",
+    "audience_include": "Behavioral (user interests) - Automation Audience Behavioral Two (0 users)",
+    "audience_exclude": "Behavioral (user interests) - Automation Audience Behavioral Three (0 users)",
+    "age": "35 - 39",
+    "gender": "Unknown",
+    "language": "Afrikaans",
+    "sec": "B1"
+  },
+  "brand_safety": {
+    "brand_safety_keywords": "Test keyword 1 (0 keywords)",
+    "contextual_keywords": "Test keyword 1 (0 keywords)"
+  },
+  "campaign_purpose": {
+    "campaign_purpose": "Win back",
+    "primary_operator": "Vodafone Albania - Albania"
+  },
+  "platforms_telco_and_devices": {
+    "ad_placement_type": "Site",
+    "mobile_operator": "Vodafone Albania - Albania",
+    "ip_address/ranges": "12.1.5.8",
+    "device_type": "Personal Computer",
+    "device_os": "Android",
+    "device_brand": "Sony",
+    "device_model": "Sony Xperia 1 II 5G",
+    "browser": "Internet Explorer",
+    "device_cost_range": "$200-300",
+    "sim_amount": "3 SIMs",
+    "device_connection": "4G supporting devices",
+    "network_connection": "4G network connection",
+    "multiple_operation_sim_card": "Vodafone Albania - Albania",
+    "mobile_data_consumption": "Very high",
+    "operator_churn": "Vodafone Albania - Albania"
+  },
+  "deals_and_packages": {
+    "ad_exchange_checkbox": "_Test QA",
+    "ad_placement_position_checkbox": "Below the Fold",
+    "private_marketplace": "Private auction - Anzu - ALWAYS ON - EMEA Tier 2 - Video PC/Console ($6.98)",
+    "packages": "Kids and Family-Oriented Games (Open Auction and PMP)",
+    "package_include": "Include only"
+  },
+  "landing_and_creatives": {
+    "click_url": "https://www.eskimi.com",
+    "ad_domain": "business.eskimi.com",
+    "creative": "Automation Banner Creative Eskimi",
+    "impression_tracking_pixel": "https://tracking.examples.com/pixel.gif?timestamp={CACHEBUSTER}"
+  }
+}

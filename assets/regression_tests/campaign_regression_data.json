@@ -1,0 +1,50 @@
+{
+  "name_and_type": {
+    "creative_type": "Native",
+    "campaign_type": "In-Game",
+    "campaign_name": "automation_ui_testing_"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "190.00",
+    "bid_cpm_in_usd": "",
+    "daily_budget": "333.33",
+    "daily_budget_in_usd": "0.40",
+    "total_budget": "2000.00",
+    "total_budget_in_usd": "2.60"
+  },
+  "location_and_audiences": {
+    "country_name": "Afghanistan",
+    "audience_group_include": "Audience group - Automation Audience Group Two (0 users)",
+    "audience_include": "Behavioral (user interests) - Automation Audience Behavioral Two (0 users)",
+    "audience_group_exclude": "Audience group - Automation Audience Group Three (0 users)",
+    "audience_exclude": "Behavioral (user interests) - Automation Audience Behavioral Three (0 users)"
+  },
+  "campaign_purpose": {
+    "campaign_purpose": "New customer acquisition",
+    "primary_operator": "AWCC - Afghanistan"
+  },
+  "platforms_telco_and_devices": {
+    "ad_placement_type": "Site",
+    "mobile_operator": "Robi - Bangladesh",
+    "ip_address/ranges": "12.1.5.7",
+    "device_type": "Smartphone",
+    "device_os": "Android",
+    "device_brand": "Acer",
+    "device_model": "Acer Chromebook R11",
+    "browser": "Chrome",
+    "device_cost_range": "$50-100",
+    "sim_amount": "1 SIM",
+    "device_connection": "2G supporting devices",
+    "network_connection": "2G network connection",
+    "multiple_operation_sim_card": "Robi - Bangladesh",
+    "mobile_data_consumption": "High",
+    "operator_churn": "Robi - Bangladesh"
+  },
+  "deals_and_packages": {},
+  "landing_and_creatives": {
+    "click_url": "https://business.eskimi.com",
+    "ad_domain": "business.eskimi.com",
+    "creative": "CampaignRegressionCreativeVideo",
+    "impression_tracking_pixel": "https://tracking.examples.com/pixel.gif?timestamp={CACHEBUSTER}"
+  }
+}

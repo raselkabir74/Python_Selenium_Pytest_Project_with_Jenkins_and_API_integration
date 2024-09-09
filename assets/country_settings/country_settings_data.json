@@ -1,0 +1,8 @@
+{
+  "country": "United Arab Emirates",
+  "cpc": {
+    "maximum_cpc": "1",
+    "minimum_impression": "12",
+    "maximum_spend": "10"
+  }
+}

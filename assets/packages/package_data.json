@@ -1,0 +1,11 @@
+{
+  "package_mandatory_data": {
+    "name": "automation_package_",
+    "auction_type": "Open Auction and PMP",
+    "csv_upload": "assets/packages/package_sites.csv"
+  },
+  "package_remaining_data": {
+    "user": "AutomationAdminUser",
+    "tags": "Top sites"
+  }
+}

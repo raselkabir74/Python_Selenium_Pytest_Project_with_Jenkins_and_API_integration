@@ -1,0 +1,14 @@
+[mysql]
+host = localhost
+user = xxx
+pass = xxx
+ssh-user = xxx
+vpn-user = No
+stage-port = 3306
+master-port = 3307
+
+[mysql-hosts]
+ssh-host = 34.76.253.234
+
+[browsermob-proxy]
+path = browsermob-proxy-2.1.4/bin/browsermob-proxy

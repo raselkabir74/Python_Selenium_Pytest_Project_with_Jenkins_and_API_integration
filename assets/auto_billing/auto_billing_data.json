@@ -1,0 +1,10 @@
+{
+  "different_status": {
+    "complete": "",
+    "incomplete": "",
+    "live": "",
+    "complete_less_than_50": "",
+    "incomplete_less_than_50": "",
+    "live_less_than_50": ""
+  }
+}

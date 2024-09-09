@@ -1,0 +1,339 @@
+{
+  "advertiserDomain": "business.eskimi.com",
+  "advertiserName": "",
+  "contentCategories": [],
+  "country": "bd",
+  "creativeAttributes": [],
+  "creativeSets": [
+    {
+      "creatives": [
+        {
+          "height": 250,
+          "id": 1076900,
+          "title": "Automation Banner Creative Eskimi New",
+          "width": 300
+        }
+      ],
+      "id": 102438,
+      "title": "Automation Banner Creative Eskimi New"
+    }
+  ],
+  "dspConfig": {
+    "adChoices": {
+      "logoUrl": "http://dsp.eskimi.com/files/upload/wl/eskimi/adchoice_logo_15x15_v2.png",
+      "position": 1,
+      "privacyPolicyUrl": "https://www.eskimi.com/privacy-policy",
+      "type": 2,
+      "version": "2.1.0.9"
+    },
+    "antiFraudSettings": {
+      "adsSupportEnabled": false,
+      "blacklistRules": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "restrictUnseenUser": false
+    },
+    "bidShading": true,
+    "dateTimeZone": "+06:00",
+    "exchanges": [],
+    "frameWrapping": false,
+    "marginType": 1,
+    "margins": [
+      {
+        "exchangeId": 1,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 2,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 5,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 6,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 14,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 17,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 20,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 23,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 32,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 34,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 39,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 40,
+        "percentage": 40
+      },
+      {
+        "exchangeId": 41,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 42,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 45,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 50,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 61,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 62,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 63,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 111,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 117,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 137,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 138,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 139,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 143,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 145,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 148,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 150,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 158,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 159,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 165,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 166,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 197,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 204,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 213,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 218,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 223,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 262,
+        "percentage": 69
+      },
+      {
+        "exchangeId": 271,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 283,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 301,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 323,
+        "percentage": 76
+      },
+      {
+        "exchangeId": 2004,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 2006,
+        "percentage": 50
+      }
+    ],
+    "multipleBidsPerUser": false,
+    "pacingSettings": {
+      "throttle": 0,
+      "type": 1
+    }
+  },
+  "html": {
+    "300x250": [
+      {
+        "approvedExchanges": [],
+        "bid": 1,
+        "id": 1076900,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "impressionTrackingUrls": [
+            {
+              "url": "https://tracking.example.com/pixel.gif?timestamp={CACHEBUSTER}"
+            }
+          ],
+          "vendors": []
+        },
+        "mediaUri": "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\"><script>var ctaURL=\"{CLICK_URL}\";<\/script><style>.demo__content:before {\n            background-image: url(\"https:\/\/dsp-media.eskimi.com\/upload\/102438_3521246584_01f26bb35c5aef8f3a4d49ceb56dc2ef.jpg\");\n        }\n\n        #demo__img {\n            background-image: url(\"https:\/\/dsp-media.eskimi.com\/upload\/102438_3521246584_2bc2318123c7374434cd5f6112c3d660.jpg\");\n        }<\/style><link type=\"text\/css\" rel=\"stylesheet\" href=\"https:\/\/dsp-media.eskimi.com\/upload\/rich-media-templates\/dancing_3d\/300x250\/style.css\"><\/head><body><div id=\"adsArea\"><a onclick=\"ctafunction();\" style=\"cursor: pointer;\"><div id=\"adRect\" style=\"border-style: solid;border-width: 0px; border-color:#f8f8f8; cursor:pointer;\"><div class=\"demo\" id=\"demo\"><div class=\"demo__content\" id=\"demo__content\"><div class=\"demo__img\" id=\"demo__img\"><\/div><\/div><\/div><\/div><\/a><script>function ctafunction(){window.open(ctaURL)}<\/script><\/div><\/body><\/html>",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "1076900_dbf52903604145a5fdda306fa25be04b_647384f60e33d.png",
+        "sslCompliant": true,
+        "subtypeId": 8,
+        "updatedAt": 1685292278,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      }
+    ]
+  },
+  "id": "",
+  "isOptimisable": false,
+  "isTracking": false,
+  "name": "",
+  "targeting": {
+    "device": {
+      "brands": {
+        "exclude": [],
+        "include": []
+      },
+      "browsers": {
+        "include": []
+      },
+      "gpsOnly": false,
+      "models": {
+        "exclude": [],
+        "include": []
+      },
+      "oses": {
+        "include": []
+      },
+      "types": {
+        "include": []
+      }
+    },
+    "endEpochSecond": "",
+    "isInterstitial": false,
+    "isTopframeEnabled": false,
+    "packageTargetingPlacementIds": {
+      "exclude": [],
+      "include": []
+    },
+    "privateDeals": {
+      "include": {
+        "34": [
+          {
+            "dealId": "9540120214-EMEA2-MB",
+            "marginPercentage": 54,
+            "typeId": 2
+          }
+        ]
+      }
+    },
+    "sitesCategories": {
+      "exclude": [
+        100,
+        110,
+        128,
+        135,
+        137,
+        139
+      ],
+      "include": []
+    },
+    "spoTargeting": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "startEpochSecond": "",
+    "subnets": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "typeId": 1,
+  "user": {
+    "currencyRate": 1,
+    "discounts": {
+      "agency": 10,
+      "bonus": 10,
+      "rebate": 0,
+      "tax": 10
+    },
+    "id": 7716,
+    "isAdmin": false,
+    "isAudit": false,
+    "name": "AutomationAgencyUser",
+    "targetDmpIds": [],
+    "targetIpAddresses": []
+  }
+}

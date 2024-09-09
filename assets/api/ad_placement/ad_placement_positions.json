@@ -1,0 +1,30 @@
+[
+    {
+        "id": 0,
+        "name": "Other"
+    },
+    {
+        "id": 1,
+        "name": "Above the Fold"
+    },
+    {
+        "id": 3,
+        "name": "Below the Fold"
+    },
+    {
+        "id": 4,
+        "name": "Header (sticky ad)"
+    },
+    {
+        "id": 5,
+        "name": "Footer (sticky ad)"
+    },
+    {
+        "id": 6,
+        "name": "Sidebar (sticky ad)"
+    },
+    {
+        "id": 7,
+        "name": "Full Screen"
+    }
+]

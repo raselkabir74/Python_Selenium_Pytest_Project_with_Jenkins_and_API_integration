@@ -1,0 +1,39 @@
+{
+  "io_main_information": {
+    "io_title": "automation_ui_testing_"
+  },
+  "client_profile": {
+    "client": "AutomationAdminUser",
+    "email": "test@eskimi.com",
+    "contact": "Test Contact",
+    "responsible_adOps": "AutomationAdminUser",
+    "client_company": "Test Automation Company"
+  },
+  "billing_entity": {
+    "company_profile": "Eskimi LT-SEB",
+    "sales_manager": "RS USER"
+  },
+  "io_object": {
+    "campaign": "MassEditAndDuplicateAutomationBannerCampaign01 (111248)",
+    "media_budget": "2",
+    "channel_service": "Test Service",
+    "country": "Bangladesh",
+    "campaign_type": "CPM dynamic"
+  },
+  "total_media_budget": {
+    "total_media_budget_amount": "2.00",
+    "notes": "Test Automation Notes",
+    "io_execution_comment": "I: Low performance"
+  },
+  "billing_information": {
+    "invoice_payment_type": "Partly",
+    "currency": "United States Dollar (USD)",
+    "invoice_status": "ProForma",
+    "send_feedback_after_io_closed_checkbox_status": "True",
+    "signed_io_checkbox_status": "",
+    "currency_rate": "1",
+    "vat": "2.00",
+    "discount": "3.00",
+    "payment_term_days": "30"
+  }
+}

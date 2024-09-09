@@ -1,0 +1,24 @@
+{
+  "main_and_billing_info": {
+    "username": "",
+    "account_name": "AutomationAgencyUser - Automation Bulk User",
+    "email": "",
+    "contact_person_full_name": "Contact Person Full Name",
+    "contact_person_email": "",
+    "contact_person_phone": "123654987",
+    "country": "Bangladesh",
+    "company_name": "Test Automation Company (Bangladesh)"
+  },
+  "branding_info": {
+    "sales_manager": "demo_awc_test",
+    "responsible_adops": "admin",
+    "account_manager": "Eskimi - Jevgenij"
+  },
+  "currency_margin": {
+    "currency": "United States Dollar (USD)",
+    "currency_rate": "1.000000",
+    "min_bid": "0.01",
+    "max_bid": "10",
+    "tech_fee": "2.50"
+  }
+}

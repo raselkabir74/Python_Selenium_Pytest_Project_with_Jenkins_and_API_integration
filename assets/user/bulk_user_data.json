@@ -1,0 +1,7 @@
+{
+  "user_to_copy": "AutomationAgencyUser",
+  "email": "testingbulk.{}@eskimi.com",
+  "account_name": "Automation Bulk User",
+  "contact_person_full_name": "Contact Person Full Name",
+  "contact_person_phone": "123654987"
+}

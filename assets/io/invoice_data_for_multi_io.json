@@ -1,0 +1,15 @@
+{
+  "invoice_info": {
+    "media_budget_for_second_io": "",
+    "actual_media_budget_for_second_io": "(5,000.00)",
+    "actual_media_budget_for_third_io_first_invoice": "(300.00)",
+    "actual_media_budget_for_first_io_second_invoice": "(100.00)",
+    "io_execution_comment": "E: Performance evaluation",
+    "vat": "5.00",
+    "discount": "2.00",
+    "base_amount": "",
+    "discount_in_payment": "",
+    "vat_in_payment": "",
+    "total_amount_in_payment": ""
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "ad_exchange": {
+    "eskimi_margin": "",
+    "eskimi_margin_value": "50",
+    "margin_type_value": "1"
+  },
+  "info": {
+    "ad_domain": "www.google.com",
+    "ad_exchanges": "_Test QA",
+    "advanced_telecom_targeting": "SIM amount: 1 SIM\nNetwork connections: Include: 2G network connection.\nSupported connections: Include: 2G supporting devices.\nMultiple operator SIM card: BD Robi\nMobile data consumption: High\nOperator churn: BD Robi",
+    "audiences": "Included - Any (OR):\nAutomation Audience Behavioral Two (Behavioral (user interests))\nExcluded - Any (OR):\nAutomation Audience Behavioral Three (Behavioral (user interests))",
+    "campaign_name": "",
+    "campaign_purpose": "Type: New customer acquisition\nPrimary operator: Banglalink",
+    "cities": "Dhaka",
+    "content_types": "Site",
+    "contextual_targeting_apps_sites": "Apps/Sites categories: -\nKeywords: -",
+    "contextual_targeting_keywords": "Keywords: -",
+    "countries": "Bangladesh",
+    "creative_type": "Banner",
+    "deal_margin": "50",
+    "demographic": "Ages: 25 - 29\nGender: Female",
+    "device_brands": "Included only: Acer",
+    "device_cost_ranges": "$50-100",
+    "device_models": "Included only: Acer Chromebook R11",
+    "device_types": "Smartphone",
+    "landing_page": "Landing page: https://www.google.com",
+    "languages": "Hebrew",
+    "mobile_operators": "BD Banglalink",
+    "oses": "Include only: Android",
+    "packages": "Kids and Family-Oriented Games (Include only)",
+    "partner": "AutomationAdminUser (admin)",
+    "private_deal": "Anzu - ALWAYS ON - EMEA Tier 2 - Display Mobile",
+    "sec": "B2",
+    "states": "BD Dhaka division",
+    "status": "Pending"
+  },
+  "main_settings": {
+    "advertisement_category": [
+      "IAB3 Business",
+      "IAB19 Technology & Computing"
+    ],
+    "advertiser_name": "",
+    "io": "-"
+  },
+  "optimization_and_tracking": {
+    "goals": {
+      "pre_optimisation": "Pre-optimise historical placement: Exclude only bad",
+      "type": "Type: Awareness"
+    },
+    "multiple_bids_per_second": ""
+  },
+  "reporting_and_budget": {
+    "bid": "5.00",
+    "daily_budget": "10.00",
+    "tech_fee": "8.00",
+    "total_budget": 60.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "payment_information": {
+    "paid_amount": "$100.00",
+    "vat": "$10.00",
+    "bank_charges": "$10.00",
+    "tax": "$10.00",
+    "discount": "$10.00",
+    "total": "$140.00",
+    "credit": "0",
+    "second_paid_amount": "0",
+    "second_bank_charges": "0",
+    "second_tax": "0",
+    "second_discount": "0",
+    "second_vat": "0",
+    "second_credit": "$10.00",
+    "second_total": "$10.00",
+    "total_paid_amount": "$100.00",
+    "total_bank_charges": "$10.00",
+    "total_tax": "$10.00",
+    "total_discount": "$10.00",
+    "total_vat": "$10.00",
+    "total_credit": "$10.00",
+    "total_amount": "$150.00",
+    "balance": "$-149.01"
+  }
+}

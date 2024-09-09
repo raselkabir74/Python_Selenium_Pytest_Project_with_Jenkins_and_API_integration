@@ -1,0 +1,16 @@
+{
+  "name": "automation_edit_company_",
+  "country": "Lithuania",
+  "address": "Test Edit Address",
+  "reg_number": "REG12345",
+  "vat_id": "VAT12345",
+  "finance_contact_name": "Finance Edit Contact Name",
+  "finance_contact_email": "financeedit.contact@eskimi.com",
+  "finance_phone_number": "224888998",
+  "payment_term": "25",
+  "client_tier": "Tier two",
+  "discount": "40.00",
+  "bonus": "40.00",
+  "tax": "40.00",
+  "collection_person": "AutomationAdminUser"
+}

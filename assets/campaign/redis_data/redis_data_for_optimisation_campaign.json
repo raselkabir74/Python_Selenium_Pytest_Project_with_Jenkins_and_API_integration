@@ -1,0 +1,323 @@
+{
+  "advertiserDomain": "www.gloworld.com",
+  "advertiserName": "Glo",
+  "contentCategories": [
+    "IAB19",
+    "IAB19-6"
+  ],
+  "country": "ng",
+  "creativeAttributes": [],
+  "creativeSets": [
+    {
+      "creatives": [
+        {
+          "height": 250,
+          "id": 1210506,
+          "title": "FOJ updated creatives_FOGlatest_300x250",
+          "width": 300
+        },
+        {
+          "height": 250,
+          "id": 1210507,
+          "title": "FOJ updated creatives_Pixel pages_300x250",
+          "width": 300
+        },
+        {
+          "height": 250,
+          "id": 1210508,
+          "title": "FOJ updated creatives_Animated 3D Cubes_300x250",
+          "width": 300
+        }
+      ],
+      "id": 118474,
+      "title": "FOJ updated creatives"
+    }
+  ],
+  "dspConfig": {
+    "adChoices": {
+      "logoUrl": "http://dsp.eskimi.com/files/upload/wl/eskimi/adchoice_logo_15x15_v2.png",
+      "position": 1,
+      "privacyPolicyUrl": "https://www.eskimi.com/privacy-policy",
+      "type": 2,
+      "version": "2.1.0.9"
+    },
+    "antiFraudSettings": {
+      "adsSupportEnabled": false,
+      "blacklistRules": [],
+      "restrictUnseenUser": false
+    },
+    "bidShading": true,
+    "dateTimeZone": "+01:00",
+    "exchanges": [
+      1, 2, 5, 14, 17, 32, 39, 111, 117, 137, 138, 139, 143, 145,
+      148, 150, 158, 159, 165, 166, 197, 204, 213, 218, 223, 271, 283, 301, 323
+    ],
+    "frameWrapping": false,
+    "margins": [
+      {
+        "exchangeId": 1,
+        "percentage": 89
+      },
+      {
+        "exchangeId": 2,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 5,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 14,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 17,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 32,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 39,
+        "percentage": 72
+      },
+      {
+        "exchangeId": 111,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 117,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 137,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 138,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 139,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 143,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 145,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 148,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 150,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 158,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 159,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 165,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 166,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 197,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 204,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 213,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 218,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 223,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 271,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 283,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 301,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 323,
+        "percentage": 78
+      },
+      {
+        "exchangeId": 2004,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 2006,
+        "percentage": 50
+      }
+    ],
+    "marginType": 0,
+    "multipleBidsPerUser": false
+  },
+  "html": {
+    "300x250": [
+      {
+        "approvedExchanges": [],
+        "bid": "",
+        "id": 1210506,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "isFloating": false,
+        "mediaUri": "<html><head><script type=\"text/javascript\">var __eventUrl = \"{event_url}\";var __clickUrl = \"{click_url}\";</script><base href=\"https://dsp-media.eskimi.com/upload/rm/upload/6570b3b7bb208/FOGlatest/\" target=\"_blank\"><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://dsp-media.eskimi.com/upload/rm/upload/6570b3b7bb208/FOGlatest/mystyle.css\"><script type=\"text/javascript\" src=\"https://dsp-media.eskimi.com/upload/rm/upload/6570b3b7bb208/FOGlatest/js/utils/Draggable.min.js\"></script><script type=\"text/javascript\" src=\"https://dsp-media.eskimi.com/upload/rm/upload/6570b3b7bb208/FOGlatest/js/TweenMax.min.js\"></script></head><body><div id=\"adsArea\"><div id=\"adArea\" class=\"rct opacity0\"><div id=\"bg1\" class=\"bg1 noVis\"></div><div id=\"mainCont\" class=\"rct\"></div><div id=\"grades\" class=\"\"></div><div id=\"dragEl\" class=\"rct\"></div></div><script src=\"https://dsp-media.eskimi.com/upload/js/2_1184746570b3c1c701b_450215437.js?_=1701884865\"></script><script src=\"https://dsp-media.eskimi.com/upload/rm/upload/6570b3b7bb208/FOGlatest/code.js\"></script></div></body></html>",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "1210506_6ae3f0a9b481a062e938c092a4ee88d0_6570b3c2b969b.png",
+        "sslCompliant": true,
+        "subtypeId": 3,
+        "updatedAt": 1701884866,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      },
+      {
+        "approvedExchanges": [],
+        "bid": "",
+        "id": 1210507,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "<html><head><base href=\"\" target=\"_blank\"><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://dsp-media.eskimi.com/upload/rich-media-templates/pixel_pages_templates/300x250/mystyle.css\"><script type=\"text/javascript\" src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/pixel_pages_templates/300x250/js/gsap.min.js\"></script><script type=\"text/javascript\" src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/pixel_pages_templates/300x250/js/Draggable.min.js\"></script></head><body><div id=\"adsArea\"><div id=\"adArea\" class=\"wrapper opacity0\"><canvas id=\"canvas\" class=\"abs\"></canvas><div id=\"icon\" class=\"abs\"></div><div id=\"dragArea\" class=\"abs\"></div></div><script>var sliderImages=[\"https://dsp-media.eskimi.com/upload/118474_1233739431_879f9b2a195fc714501fa74f9b7c1de1.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_1c77e54524c90760405d798d22ceb387.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_3232c90fc1519dea1cbc59ae497aa3f8.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_a1c51e9d6335cbcec9ce33f22249f84e.png\"],DEF={rects:{mode:\"ver\",amm:50,list:[],infl:.5,s:.78,x_del:4},slide:{swipe_need:.2,cur:0,amm:sliderImages.length,name:\"pic\",format:\"jpg\",assets_url:\"images/\",list:[],w:300,h:250,scale:null,bg_color:\"255, 255, 255\"},w:300,h:250},clickTag=\"{CLICK_URL}\",_dsptr=function(e){var track;(new Image).src=\"{EVENT_URL}\"+e};function startEvent(event_name){_dsptr(event_name)}function ctaFunction(){window.open(clickTag)}var isStarted=!0;function startedFunction(){isStarted&&(isStarted=!1,startEvent(\"Main\"),startEvent(\"Seen_Frame_1\"))}var isFinished=!0;function finishedFunction(){isFinished&&(isFinished=!1,startEvent(\"Seen_All\"))}</script><script src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/pixel_pages_templates/300x250/code.js\"></script></div></body></html>",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "1210507_51b57b0f4b7decc9ecee1c9de7edfea5_6570b44fd0ec0.png",
+        "sslCompliant": true,
+        "subtypeId": 8,
+        "updatedAt": 1701885007,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      },
+      {
+        "approvedExchanges": [],
+        "bid": "",
+        "id": 1210508,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "<!DOCTYPE html><html lang=\"en\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><meta name=\"ad.size\" content=\"width=300,height=300\"><link rel=\"stylesheet\" type=\"text/css\" href=\"https://dsp-media.eskimi.com/upload/rich-media-templates/animated_3d_cubes_v2/300x250/css/style.css\"><script src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/animated_3d_cubes_v2/300x250/js/Draggable.min.js\"></script><script src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/animated_3d_cubes_v2/300x250/js/TweenMax.min.js\"></script></head><body><div id=\"adsArea\"><div id=\"adArea\" class=\"rct\"><div id=\"bg1\" class=\"bg1 noVis\"></div><div id=\"mainCont\" class=\"rct\"></div><div id=\"preloader\" class=\"adsize\"><div class=\"linePreloader\"></div></div></div><script>var assets={},assets_url=\"https://dsp-media.eskimi.com/upload/rich-media-templates/animated_3d_cubes_v2/300x250/images/\",clickTag=\"{CLICK_URL}\",slideImages=[\"https://dsp-media.eskimi.com/upload/118474_1233739431_879f9b2a195fc714501fa74f9b7c1de1.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_1c77e54524c90760405d798d22ceb387.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_3232c90fc1519dea1cbc59ae497aa3f8.png\",\"https://dsp-media.eskimi.com/upload/118474_1233739431_a1c51e9d6335cbcec9ce33f22249f84e.png\"],_dsptr=function(e){var track;(new Image).src=\"{EVENT_URL}\"+e};function startEvent(event_name){_dsptr(event_name)}function ctaFunction(){window.open(clickTag)}var isStarted=!0;function startedFunction(){isStarted&&(isStarted=!1,startEvent(\"Main\"),startEvent(\"Seen_Frame_1\"))}var isFinished=!0;function finishedFunction(){isFinished&&(isFinished=!1,startEvent(\"Seen_All\"))}</script><script src=\"https://dsp-media.eskimi.com/upload/rich-media-templates/animated_3d_cubes_v2/300x250/js/code.js\"></script></div></body></html>",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "1210508_4e95b93f40ca7bcf2fd822de3b043889_6570b450efcb8.png",
+        "sslCompliant": true,
+        "subtypeId": 8,
+        "updatedAt": 1701885008,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      }
+    ]
+  },
+  "id": 188073,
+  "isOptimisable": true,
+  "isTracking": true,
+  "name": "FOJ Promo -15 Nov - 14 Dec - Traffic",
+  "targeting": {
+    "device": {
+      "brands": {
+        "exclude": [],
+        "include": []
+      },
+      "browsers": {
+        "include": []
+      },
+      "gpsOnly": false,
+      "models": {
+        "exclude": [],
+        "include": []
+      },
+      "oses": {
+        "include": []
+      },
+      "types": {
+        "include": []
+      }
+    },
+    "endEpochSecond": "",
+    "isInterstitial": false,
+    "isTopframeEnabled": false,
+    "packageTargetingPlacementIds": {
+      "exclude": [],
+      "include": []
+    },
+    "sites": {
+      "exclude": [
+        24509549
+      ],
+      "include": []
+    },
+    "sitesCategories": {
+      "exclude": [
+        100,
+        119,
+        128,
+        130,
+        132,
+        136,
+        139
+      ],
+      "include": []
+    },
+    "spoTargeting": [],
+    "startEpochSecond": "",
+    "subnets": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "typeId": 1,
+  "user": {
+    "currencyRate": "",
+    "discounts": {
+      "agency": 0,
+      "bonus": 10,
+      "rebate": 0,
+      "tax": 13
+    },
+    "id": 1187,
+    "isAdmin": false,
+    "isAudit": false,
+    "name": "Webcoupers - GLO",
+    "targetDmpIds": [],
+    "targetIpAddresses": []
+  }
+}

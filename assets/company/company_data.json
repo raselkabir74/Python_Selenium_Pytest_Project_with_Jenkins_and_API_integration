@@ -1,0 +1,16 @@
+{
+  "name": "automation_company_",
+  "country": "Bangladesh",
+  "address": "Test address",
+  "reg_number": "987654321",
+  "vat_id": "123456789",
+  "finance_contact_name": "Finance Contact Name",
+  "finance_contact_email": "finance.contact@eskimi.com",
+  "finance_phone_number": "92282272",
+  "payment_term": "30",
+  "client_tier": "Tier two",
+  "discount": "50.00",
+  "bonus": "50.00",
+  "tax": "20.00",
+  "collection_person": "AutomationAdminUser"
+}

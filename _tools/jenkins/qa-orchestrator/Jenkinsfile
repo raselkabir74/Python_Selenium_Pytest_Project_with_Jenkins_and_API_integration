@@ -1,0 +1,51 @@
+pipeline {
+    agent {
+        label "rtb-ansible"
+    }
+    options {
+        timestamps()
+        ansiColor('xterm')
+        buildDiscarder(logRotator(numToKeepStr: '25'))
+        disableConcurrentBuilds()
+        timeout(time: 180, unit: 'MINUTES')   // timeout on whole job
+    }
+    parameters {
+        string(
+            name: 'GIT_REF',
+            defaultValue: 'origin/master',
+            description: 'A valid reference to a specific repository revision (branch/tag name, commit hash etc.)'
+        )
+        booleanParam(
+            name: 'CLEAN_BUILD',
+            defaultValue: false,
+            description: 'Ignore any cached layers and re-pull base image(s)'
+        )
+        string(
+            name: 'PARENT_JOB_BRANCH_NAME',
+            defaultValue: '',
+            description: 'Branch name from the parent job.'
+        )
+        string(
+            name: 'BRANCH',
+            defaultValue: 'master',
+            trim: true,
+            description: 'Git branch to stage'
+        )
+    }
+    stages {
+        stage('UI tests in QA') {
+            steps {
+                withCredentials([
+                    [$class: 'VaultTokenCredentialBinding', credentialsId: 'approle-dsp-dashboard', vaultAddr: 'https://vault.ms.eskimi.com'],
+                    sshUserPrivateKey(credentialsId: 'rtb-migrations-ssh', usernameVariable: 'SSH_USER', keyFileVariable: 'SSH_PRIVATE_KEY')
+                ]) {
+                    withCredentials([[$class: 'VaultTokenCredentialBinding', credentialsId: 'approle-dsp-dashboard-build', vaultAddr: 'https://vault.ms.eskimi.com']]) {
+                        sh "/usr/local/dsp-ci-build/dsp-dashboard/build/build.sh " + params.CLEAN_BUILD + " " + params.GIT_REF
+                    }
+                    sh "/usr/local/dsp-ci-build/dsp-dashboard/deploy/deploy-qa.sh"
+                }
+                build job: 'rtb-dashboard-ui-tests/master', parameters: [string(name: 'DASHBOARD_STAGE', value: '-qa-testing'), booleanParam(name: 'RUN_ONLY_REGRESSION_TESTS', value: true), booleanParam(name: 'REPORT_TO_DASHBOARD_TEAM', value: false), string(name: 'BRANCH_NAME', value: "PR Number: ${params.PARENT_JOB_BRANCH_NAME} Branch: ${params.BRANCH}")]
+            }
+        }
+    }
+}

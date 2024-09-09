@@ -1,0 +1,290 @@
+[
+    {
+        "id": 292,
+        "name": "Barisal division"
+    },
+    {
+        "id": 293,
+        "name": "Chittagong division"
+    },
+    {
+        "id": 294,
+        "name": "Dhaka division"
+    },
+    {
+        "id": 295,
+        "name": "Khulna division"
+    },
+    {
+        "id": 296,
+        "name": "Mymensingh division"
+    },
+    {
+        "id": 297,
+        "name": "Rajshahi division"
+    },
+    {
+        "id": 298,
+        "name": "Rangpur division"
+    },
+    {
+        "id": 299,
+        "name": "Sylhet division"
+    },
+    {
+        "id": 4053,
+        "name": "Khulna division - Bagerhat district"
+    },
+    {
+        "id": 4054,
+        "name": "Chittagong division - Bandarban district"
+    },
+    {
+        "id": 4055,
+        "name": "Barisal division - Barguna district"
+    },
+    {
+        "id": 4056,
+        "name": "Barisal division - Barisal district"
+    },
+    {
+        "id": 4057,
+        "name": "Barisal division - Bhola district"
+    },
+    {
+        "id": 4058,
+        "name": "Rajshahi division - Bogra district"
+    },
+    {
+        "id": 4059,
+        "name": "Chittagong division - Brahmanbaria district"
+    },
+    {
+        "id": 4060,
+        "name": "Chittagong division - Chandpur district"
+    },
+    {
+        "id": 4061,
+        "name": "Rajshahi division - Chapai Nawabganj district"
+    },
+    {
+        "id": 4062,
+        "name": "Chittagong division - Chittagong district"
+    },
+    {
+        "id": 4063,
+        "name": "Khulna division - Chuadanga district"
+    },
+    {
+        "id": 4064,
+        "name": "Chittagong division - Comilla district"
+    },
+    {
+        "id": 4065,
+        "name": "Chittagong division - Cox's Bazar district"
+    },
+    {
+        "id": 4066,
+        "name": "Dhaka division - Dhaka district"
+    },
+    {
+        "id": 4067,
+        "name": "Rangpur division - Dinajpur district"
+    },
+    {
+        "id": 4068,
+        "name": "Dhaka division - Faridpur district"
+    },
+    {
+        "id": 4069,
+        "name": "Chittagong division - Feni district"
+    },
+    {
+        "id": 4070,
+        "name": "Rangpur division - Gaibandha district"
+    },
+    {
+        "id": 4071,
+        "name": "Dhaka division - Gazipur district"
+    },
+    {
+        "id": 4072,
+        "name": "Dhaka division - Gopalganj district"
+    },
+    {
+        "id": 4073,
+        "name": "Sylhet division - Habiganj district"
+    },
+    {
+        "id": 4074,
+        "name": "Mymensingh division - Jamalpur district"
+    },
+    {
+        "id": 4075,
+        "name": "Khulna division - Jessore district"
+    },
+    {
+        "id": 4076,
+        "name": "Barisal division - Jhalokati district"
+    },
+    {
+        "id": 4077,
+        "name": "Khulna division - Jhenaidah district"
+    },
+    {
+        "id": 4078,
+        "name": "Rajshahi division - Joypurhat district"
+    },
+    {
+        "id": 4079,
+        "name": "Chittagong division - Khagrachhari district"
+    },
+    {
+        "id": 4080,
+        "name": "Khulna division - Khulna district"
+    },
+    {
+        "id": 4081,
+        "name": "Dhaka division - Kishoreganj district"
+    },
+    {
+        "id": 4082,
+        "name": "Rangpur division - Kurigram district"
+    },
+    {
+        "id": 4083,
+        "name": "Khulna division - Kushtia district"
+    },
+    {
+        "id": 4084,
+        "name": "Chittagong division - Lakshmipur district"
+    },
+    {
+        "id": 4085,
+        "name": "Rangpur division - Lalmonirhat district"
+    },
+    {
+        "id": 4086,
+        "name": "Dhaka division - Madaripur district"
+    },
+    {
+        "id": 4087,
+        "name": "Khulna division - Magura district"
+    },
+    {
+        "id": 4088,
+        "name": "Dhaka division - Manikganj district"
+    },
+    {
+        "id": 4089,
+        "name": "Khulna division - Meherpur district"
+    },
+    {
+        "id": 4090,
+        "name": "Sylhet division - Moulvibazar district"
+    },
+    {
+        "id": 4091,
+        "name": "Dhaka division - Munshiganj district"
+    },
+    {
+        "id": 4092,
+        "name": "Mymensingh division - Mymensingh district"
+    },
+    {
+        "id": 4093,
+        "name": "Rajshahi division - Naogaon district"
+    },
+    {
+        "id": 4094,
+        "name": "Khulna division - Narail district"
+    },
+    {
+        "id": 4095,
+        "name": "Dhaka division - Narayanganj district"
+    },
+    {
+        "id": 4096,
+        "name": "Dhaka division - Narsingdi district"
+    },
+    {
+        "id": 4097,
+        "name": "Rajshahi division - Natore district"
+    },
+    {
+        "id": 4098,
+        "name": "Mymensingh division - Netrokona district"
+    },
+    {
+        "id": 4099,
+        "name": "Rangpur division - Nilphamari district"
+    },
+    {
+        "id": 4100,
+        "name": "Chittagong division - Noakhali district"
+    },
+    {
+        "id": 4101,
+        "name": "Rajshahi division - Pabna district"
+    },
+    {
+        "id": 4102,
+        "name": "Rangpur division - Panchagarh district"
+    },
+    {
+        "id": 4103,
+        "name": "Barisal division - Patuakhali district"
+    },
+    {
+        "id": 4104,
+        "name": "Barisal division - Pirojpur district"
+    },
+    {
+        "id": 4105,
+        "name": "Dhaka division - Rajbari district"
+    },
+    {
+        "id": 4106,
+        "name": "Rajshahi division - Rajshahi district"
+    },
+    {
+        "id": 4107,
+        "name": "Chittagong division - Rangamati district"
+    },
+    {
+        "id": 4108,
+        "name": "Rangpur division - Rangpur district"
+    },
+    {
+        "id": 4109,
+        "name": "Khulna division - Satkhira district"
+    },
+    {
+        "id": 4110,
+        "name": "Dhaka division - Shariatpur district"
+    },
+    {
+        "id": 4111,
+        "name": "Mymensingh division - Sherpur district"
+    },
+    {
+        "id": 4112,
+        "name": "Rajshahi division - Sirajganj district"
+    },
+    {
+        "id": 4113,
+        "name": "Sylhet division - Sunamganj district"
+    },
+    {
+        "id": 4114,
+        "name": "Sylhet division - Sylhet district"
+    },
+    {
+        "id": 4115,
+        "name": "Dhaka division - Tangail district"
+    },
+    {
+        "id": 4116,
+        "name": "Rangpur division - Thakurgaon district"
+    }
+]

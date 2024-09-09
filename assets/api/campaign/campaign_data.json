@@ -1,0 +1,98 @@
+{
+  "userId": 7722,
+  "name": "campaign_api_",
+  "adDomain": "business.eskimi.com",
+  "clickUrl": "https://business.eskimi.com",
+  "dates": {
+    "from": "2024-06-23",
+    "to": "2024-06-30"
+  },
+  "country": "bd",
+  "bid": 1.0,
+  "budget": {
+    "daily": 100,
+    "total": 5000
+  },
+  "creativeSetIds": [
+    50973
+  ],
+  "hours": {
+    "1": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "2": [
+      5,
+      6,
+      7
+    ],
+    "3": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "4": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "5": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "6": [
+      21,
+      22
+    ],
+    "7": [
+      23
+    ]
+  },
+  "adPlacementTypeIds": [
+    1,
+    2
+  ],
+  "adPlacementPositionIds": [
+    0,
+    1
+  ],
+  "wifi": 1,
+  "autoStart": 0,
+  "device": {
+    "typeIds": [
+      2,
+      3
+    ],
+    "connectionIds": [
+      6
+    ],
+    "osIds": [
+      1,
+      6
+    ],
+    "browserIds": [
+      5,
+      565
+    ],
+    "brandType": 1,
+    "modelIds": [
+      1,
+      2
+    ],
+    "modelType": 2
+  },
+  "capping": {
+    "impressions": 1,
+    "clicks": 40,
+    "impressionInterval": 15,
+    "impressionIntervalType": "h"
+  },
+  "preOptimisation": 2
+}

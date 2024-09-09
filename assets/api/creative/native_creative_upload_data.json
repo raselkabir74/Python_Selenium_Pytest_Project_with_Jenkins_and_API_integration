@@ -1,0 +1,21 @@
+{
+    "creativeId": 123,
+    "iconFile": "",
+    "imageMainFile": "",
+    "image600x600File": "",
+    "content": {
+        "title": "native_creative_api_",
+        "desc": "Test Description",
+        "desc2": "Test Description 2",
+        "cta": "Install",
+        "sponsored": "NY Morgage Inc.",
+        "likes": "1000",
+        "downloads": "1000",
+        "price": "$1.99",
+        "sale_price": "Free",
+        "phone": "+234 1 200 0000",
+        "address": "459 Broadway FL 5, New York, NY 10013",
+        "rating": "4.5",
+        "display_url": "https://www.display-url-link.com"
+    }
+}

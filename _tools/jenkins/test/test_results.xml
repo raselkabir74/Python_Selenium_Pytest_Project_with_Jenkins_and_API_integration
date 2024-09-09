@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="7" skipped="0" tests="7" time="249.448"
+               timestamp="2024-06-26T16:59:38.729083" hostname="Rasels-MacBook-Pro.local">
+        <testcase classname="tests.CREATIVE.test_creatives" name="test_dashboard_creative_duplicate_video_type_creative"
+                  time="27.064">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x110e0fb90&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="7dfcdb39620de1445eb562d6ceeb9704")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_video_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open(
+                'assets/creatives/creatives_ibv_video_data.json') as json_file:
+                ibv_video_creative_data = json.load(json_file)
+                ibv_video_creative_data['general_information']['title'] = \
+                ibv_video_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_ibv_video_grid_data.json') as json_file:
+                ibv_video_creative_grid_data = json.load(json_file)
+                ibv_video_creative_grid_data['general_information']['title'] = \
+                ibv_video_creative_data['general_information'][
+                'title']
+
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:565: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives"
+                  name="test_dashboard_creative_duplicate_native_type_creative" time="23.619">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x110ef6e10&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="f1996ede5fd49a9a3f3a77a92b65f93b")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_native_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open('assets/creatives/creatives_native_data.json') as json_file:
+                native_creative_data = json.load(json_file)
+                native_creative_data['general_information']['title'] = \
+                native_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_native_grid_data.json') as json_file:
+                native_creative_data_from_grid = json.load(json_file)
+                native_creative_data_from_grid['general_information']['title'] = \
+                native_creative_data['general_information'][
+                'title']
+
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:628: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives" name="test_dashboard_creative_preserve_banner_type_creative"
+                  time="25.335">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x111096850&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="dc1ba119cbf7810cd1cc786a038ec25a")&gt;,
+                None)
+                open_database_connection = &lt;pymysql.connections.Connection object at 0x110ef45d0&gt;
+
+                def test_dashboard_creative_preserve_banner_type_creative(login_by_user_type, open_database_connection):
+                config, driver, redis_connection = login_by_user_type
+                connection = open_database_connection
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open('assets/creatives/creatives_banner_data.json') as json_file:
+                banner_creative_data = json.load(json_file)
+                banner_creative_data['general_information']['title'] = \
+                banner_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_file_banner_grid_data.json') as json_file:
+                banner_creative_data_from_grid = json.load(json_file)
+                banner_creative_data_from_grid['general_information']['title'] = \
+                banner_creative_data['general_information'][
+                'title']
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:693: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives"
+                  name="test_dashboard_creative_duplicate_engagement_type_creative" time="22.869">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x110f9f3d0&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="299466ed0fc4b7a0e191c5b7df8336f8")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_engagement_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open('assets/creatives/creatives_engagement_data.json') as json_file:
+                engagement_creative_data = json.load(json_file)
+                engagement_creative_data['general_information']['title'] = \
+                engagement_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_engagement_grid_data.json') as json_file:
+                engagement_creative_data_from_grid = json.load(json_file)
+                engagement_creative_data_from_grid['general_information']['title'] = \
+                engagement_creative_data['general_information'][
+                'title']
+
+                # CREATE ENGAGEMENT TYPE CREATIVE
+                creative_url = (config['credential']['url']
+                + config['creative-creation-page']['creative-creation-url'])
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:769: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives" name="test_dashboard_creative_duplicate_audio_type_creative"
+                  time="53.256">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x1110f8a90&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="4d5a53fdda7afbfb7fd74f1c083119db")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_audio_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open('assets/creatives/creatives_audio_data.json') as json_file:
+                audio_creative_data = json.load(json_file)
+                audio_creative_data['general_information']['title'] = \
+                audio_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_audio_grid_data.json') as json_file:
+                audio_creative_grid_data = json.load(json_file)
+                audio_creative_grid_data['general_information']['title'] = \
+                audio_creative_data['general_information'][
+                'title']
+
+                # CREATE AUDIO TYPE CREATIVE
+                creative_url = (config['credential']['url']
+                + config['creative-creation-page']['creative-creation-url'])
+                driver.get(creative_url)
+                creative_form_page.provide_info_into_add_creative_set_form(
+                audio_creative_data)
+                creative_form_page.provide_info_into_add_creative_audio_form(
+                audio_creative_data)
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:839: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives"
+                  name="test_dashboard_creative_duplicate_carousel_type_creative" time="22.386">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x111088cd0&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="09bb5c5505b868dfbd0b96f021752f8a")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_carousel_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open(
+                'assets/creatives/creatives_carousel_data.json') as json_file:
+                carousel_creative_data = json.load(json_file)
+                carousel_creative_data['general_information']['title'] = \
+                carousel_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_carousel_grid_data.json') as json_file:
+                carousel_creative_data_from_grid = json.load(json_file)
+                carousel_creative_data_from_grid['general_information']['title'] = \
+                carousel_creative_data['general_information']['title']
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:891: AssertionError
+            </failure>
+        </testcase>
+        <testcase classname="tests.CREATIVE.test_creatives"
+                  name="test_dashboard_creative_duplicate_native_video_type_creative" time="23.102">
+            <failure message="assert False">login_by_user_type = (&lt;configparser.RawConfigParser object at 0x111146950&gt;,
+                &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="c1f6500cbca22c2720900154601b0d93")&gt;,
+                None)
+
+                def test_dashboard_creative_duplicate_native_video_type_creative(login_by_user_type):
+                config, driver, redis_connection = login_by_user_type
+                creative_form_page = DspDashboardCreativeForm(driver)
+                creative_list_page = DspDashboardCreativeList(driver)
+
+                with open(
+                'assets/creatives/creatives_native_video_data.json') as json_file:
+                native_video_creative_data = json.load(json_file)
+                native_video_creative_data['general_information']['title'] = \
+                native_video_creative_data['general_information'][
+                'title'] + generic_modules.get_random_string(5)
+                with open(
+                'assets/creatives/creatives_native_video_grid_data.json') as json_file:
+                native_video_creative_data_from_grid = json.load(json_file)
+                native_video_creative_data_from_grid['general_information']['title'] = \
+                native_video_creative_data['general_information'][
+                'title']
+                &gt; assert False
+                E assert False
+
+                tests/CREATIVE/test_creatives.py:958: AssertionError
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

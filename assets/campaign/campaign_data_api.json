@@ -1,0 +1,19 @@
+{
+  "userId": "",
+  "name": "campaign_api_",
+  "adDomain": "business.eskimi.com",
+  "clickUrl": "https://business.eskimi.com",
+  "dates": {
+    "from": "",
+    "to": ""
+  },
+  "country": "bd",
+  "bid": 1,
+  "budget": {
+    "daily": 10,
+    "total": 80
+  },
+  "creativeSetIds": [],
+  "autoStart": 1,
+  "wifi": 1
+}

@@ -1,0 +1,9 @@
+{
+  "payment_information": {
+    "amount_paid": "",
+    "vat": "0",
+    "bank_charges": "0",
+    "taxes": "0",
+    "rebate": "0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "profile_finance_data": {
+    "company_profile_url": "/admin/companies/form?id=9718",
+    "io_creation_url": "/admin/campaignsIo/form",
+    "credit_limit_level": "",
+    "finance_balance": "",
+    "last_invoice": "",
+    "last_payment": "",
+    "open_ios": "",
+    "open_ios_amount": "",
+    "discount": "",
+    "rebate": "10%",
+    "bonus": "",
+    "tax": "",
+    "currency_rate": "USD1.00, BDT"
+  }
+}

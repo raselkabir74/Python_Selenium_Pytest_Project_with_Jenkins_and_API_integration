@@ -1,0 +1,39 @@
+{
+  "io_main_information": {
+    "io_title": "automation_ui_testing_44760"
+  },
+  "client_profile": {
+    "client": "AutomationAdminUser",
+    "email": "automation.admin@eskimi.com, testautomation@eskimi.com",
+    "contact": "Automation Admin User, Test Automation",
+    "responsible_adOps": "AutomationAdminUser",
+    "client_company": "Test Automation Company"
+  },
+  "billing_entity": {
+    "company_profile": "Eskimi LT-SEB",
+    "sales_manager": "demo_awc_test"
+  },
+  "io_object": {
+    "campaign": "SeleniumAutomationBannerCampaign (110264)",
+    "media_budget": "1",
+    "channel_service": "Test Channel",
+    "country": "Bangladesh",
+    "campaign_type": "CPM dynamic"
+  },
+  "total_media_budget": {
+    "total_media_budget_amount": "1.00",
+    "notes": "Test Notes",
+    "io_execution_comment": "E: Performance evaluation"
+  },
+  "billing_information": {
+    "invoice_payment_type": "Full",
+    "currency": "United States Dollar (USD)",
+    "invoice_status": "Ready for assistant",
+    "send_feedback_after_io_closed_checkbox_status": "True",
+    "signed_io_checkbox_status": "",
+    "currency_rate": "1",
+    "vat": "1.00",
+    "discount": "2.00",
+    "payment_term_days": "30"
+  }
+}

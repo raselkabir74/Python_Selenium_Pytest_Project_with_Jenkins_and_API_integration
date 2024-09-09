@@ -1,0 +1,51 @@
+{
+  "name_and_type": {
+    "platform_type": [
+      "Facebook",
+      "Youtube"
+    ],
+    "creative_type": "Video",
+    "campaign_type": "Display Ads",
+    "campaign_name": "automation_ui_testing_"
+  },
+  "campaign_goal_info": {
+    "campaign_goal": "2",
+    "primary_objective": "cpm_currency:2",
+    "pre_optimisation": "true",
+    "secondary_objectives": "ctr:2,sr:3",
+    "auto_opt_checkbox": [
+      "CTR (click-through rate)",
+      "SR (session rate)"
+    ],
+    "minimum_ctr": "2",
+    "minimum_imp_per_placement_to_learn_ctr": "",
+    "minimum_sr": "3",
+    "minimum_imp_per_placement_to_learn_sr": "",
+    "impression_amount": "10",
+    "impression_click": "2",
+    "impression_time": "1"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "1.00",
+    "daily_budget": "7.14",
+    "total_budget": "50.00",
+    "daily_budget_selected": "",
+    "daily_budget_pacing": "True"
+  },
+  "location_and_audiences": {
+    "country_name": [
+      "Bangladesh",
+      "Afghanistan"
+    ]
+  },
+  "brand_safety": {},
+  "campaign_purpose": {},
+  "platforms_telco_and_devices": {},
+  "deals_and_packages": {},
+  "landing_and_creatives": {
+    "click_url": "https://business.eskimi.com",
+    "ad_domain": "business.eskimi.com",
+    "creative": "CampaignRegressionCreativeVideo",
+    "impression_tracking_pixel": "https://tracking.examples.com/pixel.gif?timestamp={CACHEBUSTER}"
+  }
+}

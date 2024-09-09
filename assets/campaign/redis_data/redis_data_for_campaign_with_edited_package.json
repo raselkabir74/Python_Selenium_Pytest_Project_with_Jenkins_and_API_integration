@@ -1,0 +1,169 @@
+{
+  "advertiserDomain": "business.eskimi.com",
+  "advertiserName": "",
+  "contentCategories": [],
+  "country": "bd",
+  "creativeAttributes": [],
+  "creativeSets": [
+    {
+      "creatives": [
+        {
+          "height": 600,
+          "id": 777045,
+          "title": "Automation Banner Creative Eskimi",
+          "width": 600
+        }
+      ],
+      "id": 50973,
+      "title": "Automation Banner Creative Eskimi"
+    }
+  ],
+  "dspConfig": {
+    "adChoices": {
+      "logoUrl": "http:\/\/dsp.eskimi.com\/files\/upload\/wl\/eskimi\/adchoice_logo_15x15_v2.png",
+      "position": 1,
+      "privacyPolicyUrl": "https:\/\/www.eskimi.com\/privacy-policy",
+      "type": 2,
+      "version": "2.1.0.9"
+    },
+    "antiFraudSettings": {
+      "adsSupportEnabled": false,
+      "blacklistRules": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "restrictUnseenUser": false
+    },
+    "bidShading": true,
+    "dateTimeZone": "+06:00",
+    "exchanges": [
+      6
+    ],
+    "frameWrapping": false,
+    "margins": [
+      {
+        "exchangeId": 6,
+        "percentage": 50
+      }
+    ],
+    "marginType": 1,
+    "multipleBidsPerUser": false,
+    "pacingSettings": {
+      "throttle": 0,
+      "type": 1
+    }
+  },
+  "html": {
+    "600x600": [
+      {
+        "approvedExchanges": [],
+        "bid": 1,
+        "id": 777045,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "50973_2775701015_c15fc0ff165999aa2d5ecc6987d846aa.png",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "",
+        "sslCompliant": true,
+        "subtypeId": 1,
+        "updatedAt": 1688628508,
+        "useSafeFrame": false,
+        "x": 600,
+        "y": 600
+      }
+    ]
+  },
+  "id": "",
+  "isOptimisable": false,
+  "isTracking": false,
+  "name": "",
+  "targeting": {
+    "device": {
+      "brands": {
+        "exclude": [],
+        "include": []
+      },
+      "browsers": {
+        "include": []
+      },
+      "gpsOnly": false,
+      "models": {
+        "exclude": [],
+        "include": []
+      },
+      "oses": {
+        "include": []
+      },
+      "types": {
+        "include": []
+      }
+    },
+    "domains": {
+      "exclude": [],
+      "include": [
+        "dailypost.ng"
+      ],
+      "packages": [
+        {
+          "auctionType": 3,
+          "domains": [
+            "dailypost.ng"
+          ],
+          "packageId": ""
+        }
+      ]
+    },
+    "endEpochSecond": "",
+    "isInterstitial": false,
+    "isTopframeEnabled": false,
+    "packageTargetingPlacementIds": {
+      "exclude": [],
+      "include": []
+    },
+    "sitesCategories": {
+      "exclude": [
+        100,
+        110,
+        128,
+        135,
+        137,
+        139
+      ],
+      "include": [
+      ]
+    },
+    "spoTargeting": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "startEpochSecond": "",
+    "subnets": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "typeId": 1,
+  "user": {
+    "currencyRate": 1,
+    "discounts": {
+      "agency": 10,
+      "bonus": 10,
+      "rebate": 0,
+      "tax": 10
+    },
+    "id": 7722,
+    "isAdmin": true,
+    "isAudit": false,
+    "name": "AutomationAdminUser",
+    "targetDmpIds": [],
+    "targetIpAddresses": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "main_settings": {
+    "io": "Test Automation IO Please Ignore #15795",
+    "advertiser_name": "Eskimi",
+    "advertisement_category": "IAB19 Technology & Computing"
+  },
+  "reporting_and_budget": {
+    "email_report": {
+      "is_checked": "True",
+      "report_frequency": "Monthly",
+      "report_hour": "15:00",
+      "report_day": "Saturday"
+    },
+    "group_by_io": {
+      "is_checked": "True",
+      "view_by": "View by campaign"
+    },
+    "email_attachment": {
+      "xls": {
+        "is_checked": "True"
+      },
+      "pdf": {
+        "is_checked": "True"
+      }
+    },
+    "generate_insight_report": "Campaign end date",
+    "bid": "1.00",
+    "daily_budget": "10.00",
+    "total_budget": 80.0,
+    "tech_fee": "10.00"
+  },
+  "optimization_and_tracking": {
+    "goals": {
+      "type": "Type: Other",
+      "pre_optimisation": "Pre-optimise historical placement: Exclude only bad"
+    },
+    "impression_performance_metric": {
+      "viewability": "10",
+      "ctr": "10",
+      "vcr": "10"
+    },
+    "custom_impression_tracking": {
+      "option": "Pixel",
+      "value": "https://tracking.example.com"
+    },
+    "viewability_and_video_support": "IAS support",
+    "vide_player_requirement": "Start delay by Pre-roll",
+    "mraid_support": "MRAID-1",
+    "anti_fraud_setting": [
+      "Exclude users with high daily Apps/Sites count",
+      "Exclude users with high daily page views",
+      "Exclude Fake clickers",
+      "Exclude Domain spoofers"
+    ],
+    "multiple_bids_per_second": "True",
+    "enhanced_reach_metric": {
+      "min": "5",
+      "max": "15"
+    },
+    "campaign_run_on_eskimi": []
+  },
+  "ad_exchange": {
+    "margin_type_value": "0",
+    "eskimi_margin": "True",
+    "eskimi_margin_value": "95"
+  }
+}

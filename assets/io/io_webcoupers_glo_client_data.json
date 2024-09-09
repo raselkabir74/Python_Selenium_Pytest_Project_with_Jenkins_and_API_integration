@@ -1,0 +1,39 @@
+{
+  "io_main_information": {
+    "io_title": "automation_ui_testing_"
+  },
+  "client_profile": {
+    "client": "Webcoupers - GLO",
+    "email": "emmanuel@webcoupers.com, godfrey@webcoupers.com, adeleke@webcoupers.com, accounts@webcoupers.com",
+    "contact": "Godfrey Isagi, Andem Ibok , Emmanuel Omiwole, Adeleke Onanuga",
+    "responsible_adOps": "Eskimi - Seun",
+    "client_company": "Webcoupers"
+  },
+  "billing_entity": {
+    "company_profile": "Eskimi NG-NG",
+    "sales_manager": "Eskimi - Chuks"
+  },
+  "io_object": {
+    "campaign": "Glo jollificat8 (10832)",
+    "media_budget": "1000",
+    "channel_service": "Test Channel",
+    "country": "Bangladesh",
+    "campaign_type": "CPM dynamic"
+  },
+  "total_media_budget": {
+    "total_media_budget_amount": "1000.00",
+    "notes": "Test Notes",
+    "io_execution_comment": "E: Performance evaluation"
+  },
+  "billing_information": {
+    "invoice_payment_type": "Full",
+    "currency": "Nigeria Naira (NGN)",
+    "invoice_status": "Ready for assistant",
+    "send_feedback_after_io_closed_checkbox_status": "True",
+    "signed_io_checkbox_status": "",
+    "currency_rate": "1",
+    "vat": "7.5",
+    "discount": "2.00",
+    "payment_term_days": "30"
+  }
+}

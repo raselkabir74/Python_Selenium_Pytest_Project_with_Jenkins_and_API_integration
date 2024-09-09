@@ -1,0 +1,33 @@
+{
+  "invoice_main_information": {
+    "invoice_title": "automation_ui_testing_"
+  },
+  "client_profile": {
+    "client": "AutomationAdminUser",
+    "email": "test@eskimi.com",
+    "contact": "Test Contact"
+  },
+  "billing_entity": {
+    "company_profile": "Eskimi LT-SEB",
+    "sales_manager": "RS USER"
+  },
+  "invoice_object": {
+    "campaign": "MassEditAndDuplicateAutomationBannerCampaign01 (111248)",
+    "media_budget": "2",
+    "channel_service": "Test Service"
+  },
+  "total_media_budget": {
+    "total_media_budget_amount": "2.00",
+    "notes": "Test Automation Notes",
+    "io_execution_comment": "I: Low performance"
+  },
+  "billing_information": {
+    "use_notice_text_on_invoice_checkbox_status": "",
+    "currency": "United States Dollar (USD)",
+    "currency_rate": "1",
+    "vat": "2.00",
+    "discount": "3.00000000",
+    "invoice_object": "DSP",
+    "payment_term_days": "30"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "ad_domain": "",
+  "bid_currency": 0.0,
+  "budget_daily_currency": 0.0,
+  "budget_total_currency": 0.0,
+  "capping": "[]",
+  "click_url": "",
+  "country": "",
+  "platform_id": 1,
+  "targeting": {
+    "advanced": {
+      "mobile_data": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "multi_sim_operators": [],
+      "op_churn": [],
+      "sec_range": [],
+      "sim_amount_types": []
+    },
+    "content_type": [
+      2,
+      1
+    ],
+    "demographic": {
+      "age": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        0
+      ],
+      "gender": [
+        1,
+        2,
+        0
+      ]
+    },
+    "exchanges": [
+      143,
+      213,
+      218,
+      197,
+      204,
+      139,
+      166,
+      323,
+      165,
+      62,
+      2,
+      61,
+      6,
+      45,
+      20,
+      301,
+      17,
+      150,
+      23,
+      32,
+      5,
+      138,
+      148,
+      117,
+      262,
+      14,
+      50,
+      111,
+      158,
+      1,
+      137,
+      271,
+      159,
+      145,
+      283,
+      63,
+      39,
+      223
+    ],
+    "languages": [],
+    "placement_positions": [
+      1,
+      3,
+      5,
+      7,
+      4,
+      0,
+      6
+    ],
+    "wifi": true
+  },
+  "user_id": 7722
+}

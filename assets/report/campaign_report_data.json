@@ -1,0 +1,64 @@
+{
+  "campaign_info": {
+    "campaign_name": "Nissan | Nissan Juke | 14.06 - 3.07.2024 | PA | Desktop",
+    "campaign_id": "209558",
+    "client_id": "3873",
+    "client_name": "Fast River - Tempo OMD"
+  },
+  "client_view": {
+    "spent_based_on_cost": {
+      "impressions": 186579,
+      "reach": 121328
+    },
+    "spent_based_on_revenue": {
+      "impressions": 186579,
+      "reach": 121328
+    },
+    "spent_based_on_revenue_with_margin": {
+      "impressions": 186579,
+      "reach": 121328
+    },
+    "spent_based_on_revenue_with_agency_share": {
+      "impressions": 186579,
+      "reach": 121328
+    }
+  },
+  "admin_view": {
+    "spent_based_on_cost": {
+      "impressions": 186579,
+      "reach": 121328,
+      "ctr": 0.13,
+      "spent_amount": 104.04,
+      "cpc_amount": 0.43,
+      "cpe_amount": 0.034,
+      "cpm_amount": 0.56
+    },
+    "spent_based_on_revenue": {
+      "impressions": 186579,
+      "reach": 121328,
+      "ctr": 0.13,
+      "spent_amount": 104.78,
+      "cpc_amount": 0.43,
+      "cpe_amount": 0.034,
+      "cpm_amount": 0.56
+    },
+    "spent_based_on_revenue_with_margin": {
+      "impressions": 186579,
+      "reach": 121328,
+      "ctr": 0.13,
+      "spent_amount": 838.27,
+      "cpc_amount": 3.44,
+      "cpe_amount": 0.27,
+      "cpm_amount": 4.49
+    },
+    "spent_based_on_revenue_with_agency_share": {
+      "impressions": 186579,
+      "reach": 121328,
+      "ctr": 0.13,
+      "spent_amount": 471.53,
+      "cpc_amount": 1.93,
+      "cpe_amount": 0.152,
+      "cpm_amount": 2.53
+    }
+  }
+}

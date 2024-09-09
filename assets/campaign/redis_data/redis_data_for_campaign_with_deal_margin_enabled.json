@@ -1,0 +1,218 @@
+{
+  "advertiserDomain": "business.eskimi.com",
+  "advertiserName": "",
+  "contentCategories": [],
+  "country": "bd",
+  "creativeAttributes": [],
+  "creativeSets": [
+    {
+      "creatives": [
+        {
+          "height": 250,
+          "id": 834658,
+          "title": "CampaignTest_300x250 (1)",
+          "width": 300
+        },
+        {
+          "height": 250,
+          "id": 834659,
+          "title": "CampaignTest_300x250 (2)",
+          "width": 300
+        },
+        {
+          "height": 250,
+          "id": 834660,
+          "title": "CampaignTest_300x250 (3)",
+          "width": 300
+        }
+      ],
+      "id": 62688,
+      "title": "CampaignCreationSelenium"
+    }
+  ],
+  "dspConfig": {
+    "adChoices": {
+      "logoUrl": "http://dsp.eskimi.com/files/upload/wl/eskimi/adchoice_logo_15x15_v2.png",
+      "position": 1,
+      "privacyPolicyUrl": "https://www.eskimi.com/privacy-policy",
+      "type": 2,
+      "version": "2.1.0.9"
+    },
+    "antiFraudSettings": {
+      "adsSupportEnabled": false,
+      "blacklistRules": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "restrictUnseenUser": false
+    },
+    "bidShading": true,
+    "dateTimeZone": "+06:00",
+    "exchanges": [],
+    "frameWrapping": false,
+    "marginType": 1,
+    "margins": [
+      {
+        "exchangeId": 6,
+        "percentage": 50
+      },
+      {
+        "exchangeId": 34,
+        "percentage": 50
+      }
+    ],
+    "multipleBidsPerUser": false,
+    "pacingSettings": {
+      "throttle": 0,
+      "type": 1
+    }
+  },
+  "html": {
+    "300x250": [
+      {
+        "approvedExchanges": [],
+        "bid": 1,
+        "id": 834658,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "15459_3213299017_54591ff0434a15e08f6b2c6ad99ac027.jpg",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "",
+        "sslCompliant": true,
+        "subtypeId": 1,
+        "updatedAt": 1639894368,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      },
+      {
+        "approvedExchanges": [],
+        "bid": 1,
+        "id": 834659,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "15459_3213299017_d4c6b00582eb38acef03aa6f2e535d7e.jpg",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "",
+        "sslCompliant": true,
+        "subtypeId": 1,
+        "updatedAt": 1639894368,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      },
+      {
+        "approvedExchanges": [],
+        "bid": 1,
+        "id": 834660,
+        "impressionTracking": {
+          "gvlVendorIds": [
+            814
+          ],
+          "vendors": []
+        },
+        "mediaUri": "15459_3213299017_5f0035f891da11aa0d8eff2921fa40cc.jpg",
+        "openRtbCreativeAttributes": [],
+        "previewUri": "",
+        "sslCompliant": true,
+        "subtypeId": 1,
+        "updatedAt": 1639894368,
+        "useSafeFrame": false,
+        "x": 300,
+        "y": 250
+      }
+    ]
+  },
+  "id": "",
+  "isOptimisable": false,
+  "isTracking": false,
+  "name": "",
+  "targeting": {
+    "device": {
+      "brands": {
+        "exclude": [],
+        "include": []
+      },
+      "browsers": {
+        "include": []
+      },
+      "gpsOnly": false,
+      "models": {
+        "exclude": [],
+        "include": []
+      },
+      "oses": {
+        "include": []
+      },
+      "types": {
+        "include": []
+      }
+    },
+    "endEpochSecond": "",
+    "isInterstitial": false,
+    "isTopframeEnabled": false,
+    "packageTargetingPlacementIds": {
+      "exclude": [],
+      "include": []
+    },
+    "privateDeals": {
+      "include": {
+        "34": [
+          {
+            "dealId": "9540120214-EMEA2-MB",
+            "marginPercentage": 40,
+            "typeId": 2
+          }
+        ]
+      }
+    },
+    "sitesCategories": {
+      "exclude": [
+        100,
+        110,
+        128,
+        135,
+        137,
+        139
+      ],
+      "include": []
+    },
+    "spoTargeting": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "startEpochSecond": "",
+    "subnets": {
+      "exclude": [],
+      "include": []
+    }
+  },
+  "typeId": 1,
+  "user": {
+    "currencyRate": 1,
+    "discounts": {
+      "agency": 10,
+      "bonus": 10,
+      "rebate": 0,
+      "tax": 10
+    },
+    "id": 7722,
+    "isAdmin": true,
+    "isAudit": false,
+    "name": "AutomationAdminUser",
+    "targetDmpIds": [],
+    "targetIpAddresses": []
+  }
+}

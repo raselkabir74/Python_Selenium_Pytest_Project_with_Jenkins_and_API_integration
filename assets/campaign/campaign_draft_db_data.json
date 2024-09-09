@@ -1,0 +1,258 @@
+{
+  "user_id": 7722,
+  "platform_id": 1,
+  "ad_domain": "www.eskimi.com",
+  "click_url": "https://www.eskimi.com",
+  "country": "al",
+  "bid_currency": 5.0,
+  "budget_daily_currency": 10.00,
+  "budget_total_currency": 60.0,
+  "targeting": {
+    "advanced": {
+      "supported_connection": [
+        9
+      ],
+      "network_connection": [
+        5
+      ],
+      "cost_range": [
+        3
+      ],
+      "sec_range": [
+        5
+      ],
+      "mobile_data": [
+        2
+      ],
+      "multi_sim_operators": [
+        10
+      ],
+      "op_churn": [
+        10
+      ],
+      "sim_amount_types": [
+        2
+      ]
+    },
+    "browsers": [
+      18
+    ],
+    "content_type": [
+      2
+    ],
+    "demographic": {
+      "age": [
+        4
+      ],
+      "gender": [
+        1
+      ],
+      "cities": [
+        "kamez"
+      ],
+      "states": [
+        "39"
+      ]
+    },
+    "device_type": [
+      5
+    ],
+    "device_brand": {
+      "type": 1,
+      "ids": [
+        5
+      ]
+    },
+    "device_model": {
+      "type": 1,
+      "ids": [
+        188
+      ]
+    },
+    "exchanges": [
+      7
+    ],
+    "hours": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "2": [],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "4": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "5": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "6": [
+        0,
+        1,
+        2,
+        3,
+         4,
+         5,
+         6,
+         7,
+         8,
+         9,
+         10,
+         11,
+         12,
+         13,
+         14,
+         15,
+         16,
+         17,
+         18,
+         19,
+        20,
+         21,
+         22,
+         23
+      ],
+      "7": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "ip_ranges": "12.1.5.7",
+    "ip_ranges_type": 1,
+    "languages": [
+      "aa"
+    ],
+    "operators": [
+      9
+    ],
+    "oses": [
+      1
+    ],
+    "placement_positions": [
+      3
+    ]
+  },
+  "capping": [
+    {
+      "cappingType": 0,
+      "impressions": 20,
+      "clicks": 2,
+      "time": 2,
+      "timeType": "h"
+    }
+  ]
+}

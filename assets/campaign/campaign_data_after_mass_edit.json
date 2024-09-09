@@ -1,0 +1,84 @@
+{
+  "brand_safety": {
+    "brand_safety_keywords": [],
+    "contextual_keywords": []
+  },
+  "campaign_goal_info": {
+    "auto_opt_checkbox": [
+      "CTR (click-through rate)",
+      "SR (session rate)"
+    ],
+    "campaign_goal": "2",
+    "impression_amount": "10",
+    "impression_click": "2",
+    "impression_time": "1",
+    "minimum_ctr": "2",
+    "minimum_imp_per_placement_to_learn_ctr": "150",
+    "minimum_imp_per_placement_to_learn_sr": "10000",
+    "minimum_sr": "3",
+    "pre_optimisation": "true",
+    "primary_objective": "cpm_currency:2",
+    "secondary_objectives": "ctr:2,sr:3"
+  },
+  "campaign_purpose": {
+    "campaign_purpose": "New customer acquisition",
+    "primary_operator": "Banglalink - Bangladesh"
+  },
+  "deals_and_packages": {
+    "ad_exchange_checkbox": "_Test QA",
+    "ad_placement_position_checkbox": "Below the Fold",
+    "package_include": "Include only",
+    "packages": [
+      "Kids and Family-Oriented Games (Open Auction and PMP)",
+      "Include only"
+    ],
+    "private_marketplace": "Private auction - Anzu - ALWAYS ON - EMEA Tier 2 - Display Mobile ($3.98)"
+  },
+  "landing_and_creatives": {
+    "ad_domain": "www.google.com",
+    "click_url": "https://www.google.com",
+    "creative": "CampaignCreationSelenium",
+    "impression_tracking_pixel": "https://tracking.example.com/pixel.gif?timestamp={CACHEBUSTER}"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "5.00",
+    "daily_budget": "10.00",
+    "total_budget": "60.00",
+    "daily_budget_pacing": "True",
+    "daily_budget_selected": ""
+  },
+  "location_and_audiences": {
+    "age": "25 - 29",
+    "audience_exclude": "Behavioral (user interests) - Automation Audience Behavioral Three (0 users)",
+    "audience_include": "Behavioral (user interests) - Automation Audience Behavioral Two (0 users)",
+    "city_name": "Dhaka - Bangladesh",
+    "country_name": "Bangladesh",
+    "gender": "Female",
+    "language": "Hebrew",
+    "sec": "B2",
+    "state_name": "Dhaka division - Bangladesh"
+  },
+  "name_and_type": {
+    "campaign_name": "",
+    "campaign_type": "Display Ads",
+    "creative_type": "Banner",
+    "platform_type": "Eskimi"
+  },
+  "platforms_telco_and_devices": {
+    "ad_placement_type": "Site",
+    "browser": "Chrome",
+    "device_brand": "Acer",
+    "device_connection": "2G supporting devices",
+    "device_cost_range": "$50-100",
+    "device_model": "Acer Chromebook R11",
+    "device_os": "Android",
+    "device_type": "Smartphone",
+    "ip_address/ranges": "12.1.5.7",
+    "mobile_data_consumption": "High",
+    "mobile_operator": "Banglalink - Bangladesh",
+    "multiple_operation_sim_card": "Robi - Bangladesh",
+    "network_connection": "2G network connection",
+    "operator_churn": "Robi - Bangladesh",
+    "sim_amount": "1 SIM"
+  }
+}

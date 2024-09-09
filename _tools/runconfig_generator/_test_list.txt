@@ -1,0 +1,4 @@
+<Module tests/test_audiences.py>
+  <Function test_add_audiences>
+<Module tests/test_campaigns.py>
+  <Function test_add_campaign>

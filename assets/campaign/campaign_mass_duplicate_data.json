@@ -1,0 +1,81 @@
+{
+  "name_and_type": {
+    "platform_type": "Eskimi",
+    "creative_type": "Banner",
+    "campaign_type": "Display Ads",
+    "campaign_name": "AutomationMassDuplicateAndEditCampaign"
+  },
+  "campaign_goal_info": {
+    "campaign_goal": "1",
+    "primary_objective": "cpm_currency:2",
+    "pre_optimisation": "true",
+    "secondary_objectives": "ctr:2,sr:3",
+    "auto_opt_checkbox": [
+      "CTR (click-through rate)",
+      "SR (session rate)"
+    ],
+    "minimum_ctr": "2",
+    "minimum_imp_per_placement_to_learn_ctr": "",
+    "minimum_sr": "3",
+    "minimum_imp_per_placement_to_learn_sr": "",
+    "impression_amount": "30",
+    "impression_click": "0",
+    "impression_time": "3"
+  },
+  "launch_date_and_budget": {
+    "bid_cpm": "3.00",
+    "daily_budget": "7.14",
+    "total_budget": "50.00",
+    "daily_budget_selected": "",
+    "daily_budget_pacing": "True"
+  },
+  "location_and_audiences": {
+    "country_name": "Angola",
+    "city_name": "Benguela - Angola",
+    "state_name": "Bie - Angola",
+    "audience_include": "Behavioral (user interests) - Automation Audience Behavioral Two (0 users)",
+    "audience_exclude": "Behavioral (user interests) - Automation Audience Behavioral Three (0 users)",
+    "age": "40 - 44",
+    "gender": "Male",
+    "language": "Afrikaans",
+    "sec": "C"
+  },
+  "brand_safety": {
+    "brand_safety_keywords": "Test keyword 1 (0 keywords)",
+    "contextual_keywords": "Test keyword 1 (0 keywords)"
+  },
+  "campaign_purpose": {
+    "campaign_purpose": "New customer acquisition",
+    "primary_operator": "Movicel - Angola"
+  },
+  "platforms_telco_and_devices": {
+    "ad_placement_type": "App",
+    "mobile_operator": "Unitel - Angola",
+    "ip_address/ranges": "",
+    "device_type": "Smart TV (connected TV)",
+    "device_os": "iOS",
+    "device_brand": "Apple",
+    "device_model": "Apple iPad",
+    "browser": "Edge",
+    "device_cost_range": "$200-300",
+    "sim_amount": "4 SIMs",
+    "device_connection": "4G supporting devices",
+    "network_connection": "4G network connection",
+    "multiple_operation_sim_card": "Unitel - Angola",
+    "mobile_data_consumption": "Low",
+    "operator_churn": "Unitel - Angola"
+  },
+  "deals_and_packages": {
+    "ad_exchange_checkbox": "Eskimi standard",
+    "ad_placement_position_checkbox": "Footer (sticky ad)",
+    "private_marketplace": "Private auction - Anzu - ALWAYS ON - EMEA Tier 2 - Display Mobile ($3.98)",
+    "packages": "Kids and Family-Oriented Games (Open Auction and PMP)",
+    "package_include": "Include only"
+  },
+  "landing_and_creatives": {
+    "click_url": "https://www.eskimi.com",
+    "ad_domain": "www.eskimi.com",
+    "creative": "CampaignCreationSelenium",
+    "impression_tracking_pixel": "https://tracking.example.com/pixel.gif?timestamp={CACHEBUSTER}"
+  }
+}
